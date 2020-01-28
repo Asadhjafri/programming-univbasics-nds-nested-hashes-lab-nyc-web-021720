@@ -6,7 +6,7 @@ PAT_M =  { name:  "Pat Monteseian", occupation: "Staff" }
 KATE_G = { name:  "Kate Gompert", occupation: "None" }
 BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
-def assembled_aoh.sort
+def assembled_aoh
 family_name = [{ name:  "Don Gately", occupation: "Live-in Staff" },
 { name:  "Joelle van Dyne", occupation: "Radio Personality" },
 { name:  "Pat Monteseian", occupation: "Staff" },
@@ -15,6 +15,7 @@ family_name = [{ name:  "Don Gately", occupation: "Live-in Staff" },
  ]# Build an array that contains (or, "nests") the constants into a single
   # Array. Ruby constants are denoted by ALL_CAPS
 end
+.sort
 
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
