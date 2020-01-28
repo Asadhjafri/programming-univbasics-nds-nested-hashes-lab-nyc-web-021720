@@ -15,7 +15,7 @@ family_name = [{ name:  "Don Gately", occupation: "Live-in Staff" },
  ]# Build an array that contains (or, "nests") the constants into a single
   # Array. Ruby constants are denoted by ALL_CAPS
 end
-.sort
+
 
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
