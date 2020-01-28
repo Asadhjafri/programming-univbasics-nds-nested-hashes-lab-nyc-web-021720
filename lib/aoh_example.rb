@@ -16,7 +16,6 @@ family_name = [{ name:  "Don Gately", occupation: "Live-in Staff" },
   # Array. Ruby constants are denoted by ALL_CAPS
 end
 
-assembled_aoh.sort
 
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
