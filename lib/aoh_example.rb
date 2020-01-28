@@ -24,7 +24,7 @@ end
 
 def aoh_lookup(aoh, row, key)
 
-  
+
 end
 family_name[1][0]
 
